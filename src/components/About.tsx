@@ -26,8 +26,7 @@ const About = () => {
               MWAKEN Construction Limited is a trusted construction company 
               specializing in building private household residentials and commercial 
               units for rent and sale. Under the leadership of <strong className="text-foreground">Kennedy Mwau Wambua</strong>, 
-              we serve communities across Kitengela, Athi River, Great Wall Gardens area, 
-              Western Province, and Coastal Province.
+              we proudly serve Kitengela and surrounding areas in Kajiado County.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               Whether you're looking for your dream family home or a commercial space 
@@ -89,8 +88,8 @@ const About = () => {
                     <p className="text-sm text-muted-foreground">Years</p>
                   </div>
                   <div className="text-center p-4 bg-secondary rounded-lg">
-                    <p className="text-3xl font-bold text-foreground mb-1">5</p>
-                    <p className="text-sm text-muted-foreground">Regions</p>
+                    <p className="text-3xl font-bold text-foreground mb-1">1</p>
+                    <p className="text-sm text-muted-foreground">County</p>
                   </div>
                 </div>
 

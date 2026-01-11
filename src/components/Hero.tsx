@@ -10,7 +10,7 @@ const Hero = ({ onRequestService }: HeroProps) => {
   const stats = [
     { icon: Home, value: "150+", label: "Homes Built" },
     { icon: Building2, value: "80+", label: "Commercial Units" },
-    { icon: MapPin, value: "5", label: "Regions Covered" },
+    { icon: MapPin, value: "Kitengela", label: "Kajiado County" },
   ];
 
   return (
@@ -37,8 +37,7 @@ const Hero = ({ onRequestService }: HeroProps) => {
           </h1>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-xl animate-fade-up" style={{ animationDelay: "0.2s" }}>
             MWAKEN Construction Limited specializes in building private residential homes 
-            and commercial units for rent and sale across Kitengela, Athi River, Great Wall Gardens, 
-            Western Province, and Coastal Province.
+            and commercial units for rent and sale in Kitengela, Kajiado County.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-16 animate-fade-up" style={{ animationDelay: "0.3s" }}>

@@ -52,11 +52,11 @@ const Header = ({ onRequestService }: HeaderProps) => {
           {/* CTA and Contact */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:+254700000000"
+              href="tel:+254705822854"
               className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               <Phone className="w-4 h-4" />
-              <span className="hidden xl:inline">+254 700 000 000</span>
+              <span className="hidden xl:inline">0705 822 854</span>
             </a>
             <Button variant="accent" onClick={onRequestService}>
               Request Service

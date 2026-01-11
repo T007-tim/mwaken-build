@@ -4,13 +4,13 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: MapPin,
-      title: "Service Areas",
-      details: ["Kitengela, Athi River", "Great Wall Gardens Area", "Western & Coastal Province"],
+      title: "Service Area",
+      details: ["Kitengela", "Kajiado County, Kenya"],
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+254 700 000 000", "+254 711 000 000"],
+      details: ["0705 822 854"],
     },
     {
       icon: Mail,
@@ -37,7 +37,7 @@ const Contact = () => {
           </h2>
           <p className="text-muted-foreground">
             Ready to build your dream home or find the perfect commercial space? 
-            Contact us for properties in Kitengela, Athi River, Western Province, and Coastal Province.
+            Contact us for properties in Kitengela, Kajiado County.
           </p>
         </div>
 
