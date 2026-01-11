@@ -4,8 +4,8 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: MapPin,
-      title: "Our Office",
-      details: ["Nairobi, Kenya", "Westlands Business District"],
+      title: "Service Areas",
+      details: ["Kitengela, Athi River", "Great Wall Gardens Area", "Western & Coastal Province"],
     },
     {
       icon: Phone,
@@ -15,7 +15,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["kennedywambua@gmail.com", "info@mwaken.co.ke"],
+      details: ["kennedywambua@gmail.com"],
     },
     {
       icon: Clock,
@@ -36,8 +36,8 @@ const Contact = () => {
             Contact Us
           </h2>
           <p className="text-muted-foreground">
-            Ready to start your next construction project? Reach out to us 
-            for a consultation and let's discuss how we can bring your vision to life.
+            Ready to build your dream home or find the perfect commercial space? 
+            Contact us for properties in Kitengela, Athi River, Western Province, and Coastal Province.
           </p>
         </div>
 
