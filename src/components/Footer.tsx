@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -19,9 +19,9 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md leading-relaxed">
-              Building excellence since 2010. We are committed to delivering 
-              world-class construction and architectural services that transform 
-              visions into exceptional realities.
+              Specializing in private residential homes and commercial units for 
+              rent and sale across Kitengela, Athi River, Great Wall Gardens, 
+              Western Province, and Coastal Province.
             </p>
             <div className="flex items-center gap-2 text-sm text-primary-foreground/70">
               <Mail className="w-4 h-4" />
@@ -48,20 +48,20 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
+          {/* Service Areas */}
           <div>
-            <h4 className="font-serif font-bold text-lg mb-6">Services</h4>
+            <h4 className="font-serif font-bold text-lg mb-6">Service Areas</h4>
             <ul className="space-y-3">
               {[
-                "Commercial Construction",
-                "Residential Building",
-                "Architectural Design",
-                "Project Management",
-                "Interior Design",
-              ].map((service) => (
-                <li key={service}>
+                "Kitengela",
+                "Athi River",
+                "Near Great Wall Gardens",
+                "Western Province",
+                "Coastal Province",
+              ].map((area) => (
+                <li key={area}>
                   <span className="text-primary-foreground/70 text-sm">
-                    {service}
+                    {area}
                   </span>
                 </li>
               ))}

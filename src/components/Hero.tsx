@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Building2, Award, Users } from "lucide-react";
+import { ArrowRight, Home, Building2, MapPin } from "lucide-react";
 import heroImage from "@/assets/hero-construction.jpg";
 
 interface HeroProps {
@@ -8,9 +8,9 @@ interface HeroProps {
 
 const Hero = ({ onRequestService }: HeroProps) => {
   const stats = [
-    { icon: Building2, value: "150+", label: "Projects Completed" },
-    { icon: Award, value: "15+", label: "Years Experience" },
-    { icon: Users, value: "50+", label: "Team Members" },
+    { icon: Home, value: "150+", label: "Homes Built" },
+    { icon: Building2, value: "80+", label: "Commercial Units" },
+    { icon: MapPin, value: "5", label: "Regions Covered" },
   ];
 
   return (
@@ -29,16 +29,16 @@ const Hero = ({ onRequestService }: HeroProps) => {
       <div className="relative container mx-auto px-4 pt-32 pb-16">
         <div className="max-w-3xl">
           <p className="text-accent font-semibold tracking-widest uppercase mb-4 animate-fade-up">
-            Building Tomorrow, Today
+            Residential & Commercial Properties
           </p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Crafting Exceptional
-            <span className="block text-gradient">Architectural Visions</span>
+            Quality Homes &
+            <span className="block text-gradient">Commercial Units</span>
           </h1>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-xl animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            MWAKEN Construction Limited delivers world-class construction and architectural 
-            services. From residential masterpieces to commercial landmarks, we turn your 
-            vision into reality with precision and excellence.
+            MWAKEN Construction Limited specializes in building private residential homes 
+            and commercial units for rent and sale across Kitengela, Athi River, Great Wall Gardens, 
+            Western Province, and Coastal Province.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-16 animate-fade-up" style={{ animationDelay: "0.3s" }}>
@@ -47,7 +47,7 @@ const Hero = ({ onRequestService }: HeroProps) => {
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
-              <a href="#projects">View Our Work</a>
+              <a href="#projects">View Our Properties</a>
             </Button>
           </div>
 

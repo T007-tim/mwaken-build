@@ -1,10 +1,10 @@
 import { 
   Building2, 
   Home, 
-  Ruler, 
+  Key, 
   HardHat, 
-  PenTool, 
-  TreePine,
+  Ruler, 
+  Wrench,
   ArrowRight
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -16,34 +16,34 @@ interface ServicesProps {
 const Services = ({ onRequestService }: ServicesProps) => {
   const services = [
     {
-      icon: Building2,
-      title: "Commercial Construction",
-      description: "Office buildings, retail spaces, and commercial complexes built to the highest standards with modern amenities and sustainable practices.",
+      icon: Home,
+      title: "Residential Construction",
+      description: "Custom-built private homes designed for comfort and durability. From bungalows to multi-story family residences across our service regions.",
     },
     {
-      icon: Home,
-      title: "Residential Building",
-      description: "Custom homes, apartments, and housing developments designed for comfort, functionality, and aesthetic appeal.",
+      icon: Building2,
+      title: "Commercial Units",
+      description: "Purpose-built commercial spaces including shops, offices, and rental units designed to maximize your investment returns.",
+    },
+    {
+      icon: Key,
+      title: "Properties for Rent",
+      description: "Quality residential and commercial units available for rent in Kitengela, Athi River, and other prime locations.",
+    },
+    {
+      icon: HardHat,
+      title: "Properties for Sale",
+      description: "Ready-to-move-in homes and commercial spaces for sale. Own your property in growing areas of Kenya.",
     },
     {
       icon: Ruler,
       title: "Architectural Design",
-      description: "Innovative architectural solutions that blend creativity with practicality, from concept to detailed construction drawings.",
+      description: "Professional architectural designs tailored to your needs, budget, and the specific requirements of your plot.",
     },
     {
-      icon: HardHat,
-      title: "Project Management",
-      description: "End-to-end project oversight ensuring timely delivery, budget adherence, and quality control at every phase.",
-    },
-    {
-      icon: PenTool,
-      title: "Interior Design",
-      description: "Thoughtful interior spaces that maximize functionality while creating inspiring environments for living and working.",
-    },
-    {
-      icon: TreePine,
-      title: "Landscape Architecture",
-      description: "Sustainable outdoor spaces that complement your building with beautiful gardens, walkways, and recreational areas.",
+      icon: Wrench,
+      title: "Renovation & Upgrades",
+      description: "Transform your existing property with quality renovations, extensions, and modern upgrades.",
     },
   ];
 
@@ -56,11 +56,11 @@ const Services = ({ onRequestService }: ServicesProps) => {
             Our Services
           </p>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Comprehensive Construction Solutions
+            Homes & Commercial Properties
           </h2>
           <p className="text-muted-foreground">
-            From initial design concepts to final construction, we offer a complete range 
-            of services to bring your vision to life with excellence and precision.
+            We build, sell, and rent quality residential homes and commercial units 
+            across Kitengela, Athi River, Great Wall Gardens, Western Province, and Coastal Province.
           </p>
         </div>
 

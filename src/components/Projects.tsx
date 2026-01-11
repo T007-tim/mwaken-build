@@ -6,21 +6,21 @@ const Projects = () => {
   const projects = [
     {
       image: projectResidential,
-      title: "Modern Residential Villa",
-      category: "Residential",
-      location: "Karen, Nairobi",
+      title: "Modern Family Residence",
+      category: "For Sale",
+      location: "Kitengela",
     },
     {
       image: projectCommercial,
-      title: "Corporate Office Complex",
-      category: "Commercial",
-      location: "Westlands, Nairobi",
+      title: "Commercial Rental Units",
+      category: "For Rent",
+      location: "Athi River",
     },
     {
       image: projectInfrastructure,
-      title: "Highway Infrastructure",
-      category: "Infrastructure",
-      location: "Mombasa Road",
+      title: "Residential Estate",
+      category: "For Sale",
+      location: "Near Great Wall Gardens",
     },
   ];
 
@@ -30,14 +30,14 @@ const Projects = () => {
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <p className="text-accent font-semibold tracking-widest uppercase mb-4">
-            Our Portfolio
+            Our Properties
           </p>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Featured Projects
+            Featured Properties
           </h2>
           <p className="text-muted-foreground">
-            Explore our portfolio of completed projects showcasing our expertise 
-            across residential, commercial, and infrastructure development.
+            Explore our portfolio of residential homes and commercial units 
+            available for rent and sale across our service regions.
           </p>
         </div>
 

@@ -3,8 +3,8 @@ import { CheckCircle, Mail } from "lucide-react";
 const About = () => {
   const highlights = [
     "Licensed & Certified Construction Professionals",
-    "Award-Winning Architectural Designs",
-    "Sustainable Building Practices",
+    "Private Residential Home Specialists",
+    "Commercial Units for Rent & Sale",
     "On-Time Project Delivery",
     "Transparent Pricing & Communication",
     "Quality Materials & Workmanship",
@@ -20,20 +20,20 @@ const About = () => {
               About Us
             </p>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Building Excellence Since 2010
+              Building Quality Homes & Commercial Spaces
             </h2>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              MWAKEN Construction Limited is a premier construction and architectural firm 
-              dedicated to transforming visions into exceptional built environments. Under 
-              the leadership of <strong className="text-foreground">Kennedy Mwau Wambua</strong>, 
-              our team brings over 15 years of combined expertise in residential, commercial, 
-              and infrastructure development.
+              MWAKEN Construction Limited is a trusted construction company 
+              specializing in building private household residentials and commercial 
+              units for rent and sale. Under the leadership of <strong className="text-foreground">Kennedy Mwau Wambua</strong>, 
+              we serve communities across Kitengela, Athi River, Great Wall Gardens area, 
+              Western Province, and Coastal Province.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              We pride ourselves on delivering projects that exceed expectations through 
-              innovative design, meticulous planning, and unwavering commitment to quality. 
-              Every structure we build reflects our dedication to craftsmanship and our 
-              clients' unique aspirations.
+              Whether you're looking for your dream family home or a commercial space 
+              for your business, we deliver quality construction that stands the test 
+              of time. Our focus on affordability without compromising quality has made 
+              us a preferred builder in the regions we serve.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
@@ -78,24 +78,24 @@ const About = () => {
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center p-4 bg-secondary rounded-lg">
                     <p className="text-3xl font-bold text-foreground mb-1">150+</p>
-                    <p className="text-sm text-muted-foreground">Projects</p>
+                    <p className="text-sm text-muted-foreground">Homes</p>
                   </div>
                   <div className="text-center p-4 bg-secondary rounded-lg">
-                    <p className="text-3xl font-bold text-foreground mb-1">100%</p>
-                    <p className="text-sm text-muted-foreground">Satisfaction</p>
+                    <p className="text-3xl font-bold text-foreground mb-1">80+</p>
+                    <p className="text-sm text-muted-foreground">Commercial Units</p>
                   </div>
                   <div className="text-center p-4 bg-secondary rounded-lg">
                     <p className="text-3xl font-bold text-foreground mb-1">15+</p>
                     <p className="text-sm text-muted-foreground">Years</p>
                   </div>
                   <div className="text-center p-4 bg-secondary rounded-lg">
-                    <p className="text-3xl font-bold text-foreground mb-1">50+</p>
-                    <p className="text-sm text-muted-foreground">Team</p>
+                    <p className="text-3xl font-bold text-foreground mb-1">5</p>
+                    <p className="text-sm text-muted-foreground">Regions</p>
                   </div>
                 </div>
 
                 <p className="text-center text-muted-foreground text-sm italic">
-                  "Excellence in every detail, integrity in every project"
+                  "Building quality homes for Kenyan families"
                 </p>
               </div>
             </div>
