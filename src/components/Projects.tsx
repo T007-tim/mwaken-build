@@ -8,19 +8,19 @@ const Projects = () => {
       image: projectResidential,
       title: "Modern Family Residence",
       category: "For Sale",
-      location: "Kitengela",
+      location: "Kitengela, Kajiado",
     },
     {
       image: projectCommercial,
       title: "Commercial Rental Units",
       category: "For Rent",
-      location: "Athi River",
+      location: "Kitengela, Kajiado",
     },
     {
       image: projectInfrastructure,
       title: "Residential Estate",
       category: "For Sale",
-      location: "Near Great Wall Gardens",
+      location: "Kitengela, Kajiado",
     },
   ];
 

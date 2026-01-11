@@ -60,7 +60,7 @@ const Services = ({ onRequestService }: ServicesProps) => {
           </h2>
           <p className="text-muted-foreground">
             We build, sell, and rent quality residential homes and commercial units 
-            across Kitengela, Athi River, Great Wall Gardens, Western Province, and Coastal Province.
+            in Kitengela, Kajiado County.
           </p>
         </div>
 

@@ -20,8 +20,7 @@ const Footer = () => {
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md leading-relaxed">
               Specializing in private residential homes and commercial units for 
-              rent and sale across Kitengela, Athi River, Great Wall Gardens, 
-              Western Province, and Coastal Province.
+              rent and sale in Kitengela, Kajiado County.
             </p>
             <div className="flex items-center gap-2 text-sm text-primary-foreground/70">
               <Mail className="w-4 h-4" />
@@ -48,23 +47,20 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Service Areas */}
+          {/* Contact Info */}
           <div>
-            <h4 className="font-serif font-bold text-lg mb-6">Service Areas</h4>
+            <h4 className="font-serif font-bold text-lg mb-6">Contact</h4>
             <ul className="space-y-3">
-              {[
-                "Kitengela",
-                "Athi River",
-                "Near Great Wall Gardens",
-                "Western Province",
-                "Coastal Province",
-              ].map((area) => (
-                <li key={area}>
-                  <span className="text-primary-foreground/70 text-sm">
-                    {area}
-                  </span>
-                </li>
-              ))}
+              <li>
+                <a href="tel:+254705822854" className="text-primary-foreground/70 hover:text-accent transition-colors text-sm">
+                  0705 822 854
+                </a>
+              </li>
+              <li>
+                <span className="text-primary-foreground/70 text-sm">
+                  Kitengela, Kajiado County
+                </span>
+              </li>
             </ul>
           </div>
         </div>
