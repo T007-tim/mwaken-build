@@ -24,11 +24,11 @@ const Header = ({ onRequestService }: HeaderProps) => {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
             <div className="w-12 h-12 hero-bg rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-serif font-bold text-xl">M</span>
+              <span className="text-primary-foreground font-serif font-bold text-xl">W</span>
             </div>
             <div className="hidden sm:block">
               <h1 className="font-serif font-bold text-lg leading-tight text-foreground">
-                MWAKEN
+                WAMBUKE
               </h1>
               <p className="text-xs text-muted-foreground tracking-widest">
                 CONSTRUCTION LTD

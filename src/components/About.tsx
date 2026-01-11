@@ -23,7 +23,7 @@ const About = () => {
               Building Quality Homes & Commercial Spaces
             </h2>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              MWAKEN Construction Limited is a trusted construction company 
+              WAMBUKE Construction Limited is a trusted construction company 
               specializing in building private household residentials and commercial 
               units for rent and sale. Under the leadership of <strong className="text-foreground">Kennedy Mwau Wambua</strong>, 
               we proudly serve Kitengela and surrounding areas in Kajiado County.

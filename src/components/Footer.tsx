@@ -9,10 +9,10 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-serif font-bold text-xl">M</span>
+                <span className="text-accent-foreground font-serif font-bold text-xl">W</span>
               </div>
               <div>
-                <h3 className="font-serif font-bold text-xl">MWAKEN</h3>
+                <h3 className="font-serif font-bold text-xl">WAMBUKE</h3>
                 <p className="text-primary-foreground/60 text-xs tracking-widest">
                   CONSTRUCTION LIMITED
                 </p>
@@ -71,7 +71,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/50 text-sm">
-              Copyright © 2026 MWAKEN Construction Limited. All rights reserved.
+              Copyright © 2026 WAMBUKE Construction Limited. All rights reserved.
             </p>
             <p className="text-primary-foreground/50 text-sm">
               Owner: Kennedy Mwau Wambua

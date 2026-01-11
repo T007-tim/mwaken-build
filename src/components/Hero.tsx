@@ -36,7 +36,7 @@ const Hero = ({ onRequestService }: HeroProps) => {
             <span className="block text-gradient">Commercial Units</span>
           </h1>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-xl animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            MWAKEN Construction Limited specializes in building private residential homes 
+            WAMBUKE Construction Limited specializes in building private residential homes 
             and commercial units for rent and sale in Kitengela, Kajiado County.
           </p>
 
