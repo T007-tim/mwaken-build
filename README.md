@@ -1,12 +1,7 @@
-#include <iostream>
-#include <string>
-
-using namespace std;
-
-int main() {
-    string projectName = "House Maisonette Project";
-    string visualization = "4K Video Visualization";
-    string designProcess = "Wireframing and Prototyping";
+#includes
+    House Maisonette Project
+    4K Video Visualization
+    Wireframing and Prototyping
 
     cout << "Client Project Showcase\n";
     cout << "------------------------\n";
